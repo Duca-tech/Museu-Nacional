@@ -1,0 +1,197 @@
+body{
+	background: url(../img/fundo.png) repeat-x;
+	margin: 0;
+	padding: 0;
+	font: 12px "Lucinda Grande", "Lucinda Sans Unicode", Arial, sans-serif;
+	background-color: #FFFFF0;
+}
+
+#conteiner{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+header h1{
+	background: url(../img/logo.png) no-repeat center;
+	text-indent: -9999px;
+	width: 250px;
+	height: 45px;
+	margin-top: 25px;
+	float: left;
+}
+
+header ul{
+	list-style: none;
+	float: right;
+	margin-top: 45px;
+	margin-right: 20px;
+}
+
+header ul li{
+	float: left;
+	padding: 0px 17px;
+}
+
+header ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 0.9em;
+	color: #D2691E;
+
+}
+
+header ul li a:hover{
+	background: #800000;
+	padding: 3px;
+	text-decoration: inherit;
+}
+
+main{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+main section{
+
+	width: 750px;
+
+
+}
+
+/*Lateral*/
+main aside {
+
+	width: 390px;
+	margin-bottom: 15px;
+
+
+}
+aside img.depoimento{
+
+	background-size: cover;
+	width: 390px;
+	margin-bottom: 15px;
+}
+
+
+aside form{
+	background: #cdb8b1;
+	margin-bottom: 15px;
+}
+
+aside form h3{
+
+	color: #8B0000;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	font-size: 0.9em;
+}
+
+aside form a{
+	font-size: 1em;
+	background: #98FB98;
+	color: #8B4513;
+	padding: 10px 90px;
+	text-align: center;
+	line-height: 5em;
+	margin-left: 10px;
+
+}
+
+aside form input.data{
+	margin-bottom: 10px;
+}
+
+aside #galeria{
+	
+	background: #F5F5DC;
+	padding: 8px;
+}
+
+
+
+aside #galeria h3{
+	color: #8B0000;
+	text-transform: uppercase;
+	font-size: 0.9em;
+}
+
+aside #galeria a{
+	display: block;
+	float: left;
+	padding: 15px 12px 17px 18px;
+	background: url(../img/fundo-foto.png) no-repeat;
+	margin-left: 40px;
+
+
+}
+
+	
+
+}
+
+aside #galeria img{
+	padding: 5px 5px 15px 27px;
+	text-align: center;
+	margin-left: 25px;
+}
+
+
+
+/*principapal*/
+
+main section{
+	margin-bottom: 50px;
+}
+
+main section h3{
+
+	color: #3CB371;
+	text-transform: uppercase;
+}
+
+main section article#video{
+	float: left;
+	margin-left: 20px;
+
+}
+main section article#mapa{
+	float: right;
+	margin-right: 20px;
+}
+main section article#exposicoes{
+	float: left;
+	margin-left: 20px;
+}
+main section article#exposicoes ul li{
+	color: #8B4513;
+}
+
+main section article#historia{
+	float: right;
+	margin-right: 20px;
+}
+
+footer#rodape{
+	clear: both;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	text-align: center;
+	background: url(../img/fundo-rodape.png) no-repeat top center ;
+}
+
+footer#rodape a{
+	margin-top: 50px;
+
+	padding: 5px;
+	text-decoration: none;
+	color: #8B4513;
+}
+
+footer#rodape a:hover{
+	text-decoration: initial;
+}
+
+footer#rodape span.final{
+	margin-top: 100px;
+}
